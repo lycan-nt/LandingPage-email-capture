@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+#topo {
+    background: url("imagens/back.jpeg") no-repeat center top;
+}
+
+.logo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
