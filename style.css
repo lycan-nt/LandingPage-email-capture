@@ -1,9 +1,12 @@
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #topo {
     background: url("imagens/back.jpeg") no-repeat center top;
+    padding-bottom: 40px;
+    background-size: cover;
 }
 
 .logo img{
@@ -11,4 +14,116 @@ body {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.conteudo {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conteudo div {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.conteudo h3, .info h3 {
+    color: #9eee00;
+    text-align: center;
+    font-size: 24px;
+}
+
+.conteudo p {
+    text-align: center;
+    color: white;
+}
+
+.formulario {
+    background: #67d2fe;
+    border: #134150 solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.formulario input[type="text"], input[type="email"], .formulario select {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;  
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);  
+}
+
+.formulario label {
+    display: block;
+}
+
+.destaque {
+    color: white;
+}
+
+.formulario input[type="submit"]{
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.aceite {
+    font-size: 14px;
+}
+
+#baixo {
+    background: #003f50;
+    padding: 20px 0;
+}
+
+.conteudo-buttom {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #9eee00;
+    padding: 20px;
+}
+
+.info {
+    text-align: center;
+    color: #fff;
+}
+
+.vantagems {
+    overflow: hidden;
+}
+
+.vantagems div {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.vantagems img {
+    display: block;
+    margin: 0 auto;
+}
+
+.vantagems p {
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 496px) {
+    .conteudo div {
+        width: 100%;
+    }
+
+    .vantagems div {
+        width: 100%;
+    }
 }

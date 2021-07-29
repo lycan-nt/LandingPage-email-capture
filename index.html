@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Email Capture</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="topo">
@@ -17,13 +21,54 @@
 
         <div class="conteudo">
             <div>
-                <h3></h3>
-                <p></p>
-                <p></p>
+                <h3>Transforme impostos pagos a mais em oportunidades para sua empresa </h3>
+                <p>Solicite a restituição de tributos pagos indevidamente, recupere sua receita e garanta mais economia para sua empresa.  </p>
+                <p>Quer saber como? Preencha seus dados e nós entramos em contato com você.</p>
             </div>
 
             <div>
-                Formulario
+                <form class="formulario">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-Mail" required>
+                    <input type="text" name="telefone" placeholder="Telefone" required>
+
+                    <label class="destaque">Tipo de empresa</label>
+                    <select name="empresa" required>
+                        <option>MEI</option>
+                        <option>Simples Nacional</option>
+                        <option>Regime Normal</option>
+                    </select>
+
+                    <label class="aceite"><input type="checkbox" name="aceite">Aceito receber comunicações</label>
+					<input type="submit" name="enviar" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="baixo">
+        <div class="conteudo-buttom">
+            <div class="info">
+				<h3>Sua empresa pode estar pagando impostos indevidos! </h3>
+				<p>Você sabia que as empresas que trabalham com revenda de produtos monofásicos, como cosméticos, medicamentos, bebidas, cigarros, combustíveis, pneus e autopeças, são isentas do pagamento dos tributos de PIS/COFINS?</p>
+				<p>Por isso, você pode estar pagando tributos quando não há mais necessidade e tem direito à restituição desse valor. </p>
+            </div>
+
+            <div class="vantagems">
+                <div>
+                    <img src="imagens/mi.png" alt="Vantagems">
+                    <p>+ de R$ 250 milhões habilitados</p>
+                </div>
+
+				<div>
+					<img src="imagens/ex.png" alt="Vantagem">
+					<p>+ de 10 anos de experiência</p>
+				</div>
+                
+				<div>
+					<img src="imagens/horas.png" alt="Vantagem">
+					<p>+ de 200.000 horas de consultoria</p>
+				</div>
             </div>
         </div>
     </section>
